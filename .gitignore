@@ -6,3 +6,7 @@ cia-tests/test/a.out
 *.o
 
 dump_interrupts/a.out
+
+ciab.resource/ciab_files/ciab.resource
+
+ciaa.resource/ciaa_files/ciaa.resource
