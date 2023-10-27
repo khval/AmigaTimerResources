@@ -1,0 +1,10 @@
+copy /include/#? sdk:Include/include_h/ all
+
+IF EXISTS ciab.resource
+copy ciab.resource libs:
+avail flush
+else
+echo ciab.resource not found
+endif
+
+

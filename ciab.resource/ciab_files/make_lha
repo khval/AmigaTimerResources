@@ -1,0 +1,31 @@
+
+setenv lhafile=ram:ciab_resource.lha
+
+if exists ram:ciab_resource
+	delete ram:ciab_resource all
+endif
+
+if exists ram:ciab_resource.lha
+	delete ram:ciab_resource.lha
+endif
+
+makedir ram:ciab_resource
+makedir ram:ciab_resource/libs
+makedir ram:ciab_resource/Include
+makedir ram:ciab_resource/Include/include_h/
+makedir ram:ciab_resource/lvo
+
+copy /package ram:ciab_resource all
+copy /readme.txt ram:ciab_resource/readme.txt
+copy /include/#? ram:ciab_resource/Include/include_h/ all
+
+IF EXISTS ciab.resource
+	copy ciab.resource ram:ciab_resource/libs
+else
+	echo ciab.resource not found
+endif
+
+lha -er a $lhafile ram:ciab_resource >NIL:
+lha L $lhafile
+delete ram:ciab_resource all 
+

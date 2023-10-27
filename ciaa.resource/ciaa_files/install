@@ -1,0 +1,10 @@
+copy /include/#? sdk:Include/include_h/ all
+
+IF EXISTS ciaa.resource
+copy ciaa.resource libs:
+avail flush
+else
+echo ciaa.resource not found
+endif
+
+
