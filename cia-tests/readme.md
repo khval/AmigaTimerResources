@@ -1,1 +1,1 @@
-## These are various test projects, to test CIA chips
+## These are various test projects, to test CIAA8/B chips
