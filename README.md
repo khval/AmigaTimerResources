@@ -5,6 +5,6 @@ Various projects related to amiga timers, subdirectories contain various project
 
 Disclaimer:
 
-The files distributed in this repository, are distributed as is, and the development, without beta testing, The files are not officially part of AmigaOS, and are NOT developed under contract by AEON or Hyperion, if there's any copyrights two those in the files, it's a result of development tool called idltool which will use the Hyperion copyright as default. This means not that they were written by Hyperion in any way.
+The files distributed in this repository, are distributed as is, and the development, without beta testing, The files are not officially part of AmigaOS, and are NOT developed under contract by AEON or Hyperion, if there's any copyrights to those in the files, it's a result of development tool called idltool which will use the Hyperion copyright as default. This means not that they were written by Hyperion in any way.
 
 LiveForIt is the nick, I use on various forums, discord, as well as the LifeOfLiveForIt blog, it's not associated with any company. I'm not a contractor and I'm not doing it to get rich.
