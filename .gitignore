@@ -1,0 +1,8 @@
+
+cia-tests/joy/a.out
+
+cia-tests/test/a.out
+
+*.o
+
+dump_interrupts/a.out
